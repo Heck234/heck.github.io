@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarabia Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+    <header class="header">
+        <a href="#" id="logo"><img src="imgaes/mylogo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">bookings</a>
+            <a href="https://docs.google.com/presentation/d/1KHOINFUYXxrDJD7QBgTuP__rO4KdiRdqGy1Z9lEyTa0/edit?usp=drivesdk">gallery</a>
+            <a href="#">about</a>
+            <a href="#">blog</a>
+            <a href="https://www.facebook.com/hucker.me">contact</a>
+        </nav>
+        <div class="icons">
+            
+            <div class="fas fa-user" id="myuser"></div>
+            <div class="fas fa-search" id="serach-bar"></div>
+            <div class="fas fa-bars" id="menu-bars"></div>
+        </div>
+
+        <div class="search-box">
+            <input type="search" placeholder="search here">
+        </div>
+        
+    </header>
+<!-- background image -->
+
+    <div class="main-background">
+        <div class="main-text">
+            <h2>perfection</h2>
+        <h1>and you are <span>welcome</span></h1>
+        </div>
+        
+    </div> 
+    <!-- background image ended -->
+
+<!-- booking secton -->
+<div class="book-section">
+    <div class="inner-book">
+        <input type="text" placeholder="arrival">
+        <input type="text" placeholder="departure">
+        <input type="text" placeholder="choose room">
+        <input type="text" placeholder="state">
+        <div class="book-btn">
+            <a href="#">what are you waiting for book now!</a>
+        </div>
+    </div>
+    
+</div>
+<!-- booking secton ended -->
+<div class="award-winning-hotel">
+    <h1>award <span>winning</span> hotels</h1>
+    <div class="main-hotel">
+        <div class="inner-award">
+            <img src="imgaes/award1.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+        </div>
+        <div class="inner-award">
+            <img src="imgaes/award 2.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+    
+        </div>
+        <div class="inner-award">
+            <img src="imgaes/award 3.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+    
+        </div>
+        <div class="inner-award">
+            <img src="imgaes/award4.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+    
+        </div>
+        <div class="inner-award">
+            <img src="imgaes/award5.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+        </div>
+        <div class="inner-award">
+            <img src="imgaes/award6.png" alt="">
+            <h2>middle town</h2>
+            <p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture and decoration of concrete? You to us.</p>
+    
+        </div>
+    </div>
+    
+</div>
+<!-- award winning ended -->
+<!-- roomes -->
+   <div class="our-rooms">
+       <h1>Our <span>rooms</span></h1>
+       <div class="inner-rooms">
+           <div class="room-box">
+               <img src="imgaes/award1.png" alt="">
+               <div class="beds">
+                   <span>1 bed</span><i class="fas fa-bed"></i>
+               </div>
+               <div class="book-room-btn">
+                <a href="#" class="book-room">Book now</a>
+            </div>
+           </div>
+
+           <div class="room-box">
+            <img src="imgaes/award1.png" alt="">
+            <div class="beds">
+                <span>1 bed</span><i class="fas fa-bed"></i>
+            </div>
+            <div class="book-room-btn">
+                <a href="#" class="book-room">Book now</a>
+            </div>
+        </div>
+
+        <div class="room-box">
+            <img src="imgaes/award1.png" alt="">
+            <div class="beds">
+                <span>1 bed</span><i class="fas fa-bed"></i>
+            </div>
+           
+                <div class="book-room-btn">
+                    <a href="#" class="book-room">Book now</a>
+                </div>
+   
+            
+        </div>
+       </div>
+   </div>
+
+
+
+<!-- roomes ended -->
+<div class="second-background">
+    <div class="second-text">
+        <h1>winter</h1>
+        <h2>weather</h2>
+    </div>
+</div>
+
+<!-- our gallery -->
+
+<div class="gallery">
+    <h1>Our <span>gallery</span></h1>
+    <div class="main-gallery">
+        <div class="inner-gallery">
+                <img src="imgaes/award1.png" alt="">
+            
+        </div>
+        <div class="inner-gallery">
+            <img src="imgaes/award1.png" alt="">
+           
+        </div>
+        <div class="inner-gallery">
+            <img src="imgaes/award1.png" alt="">
+        </div>
+        <div class="inner-gallery">
+            <img src="imgaes/award1.png" alt="">
+        </div>
+        <div class="inner-gallery">
+            <img src="imgaes/award1.png" alt="">
+        </div>
+        <div class="inner-gallery">
+            <img src="imgaes/award1.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
